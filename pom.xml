@@ -16,7 +16,14 @@
     <url>https://github.com/Shweta1319/Baner.git</url>
   </scm>
   
-  <dependencies>
+  <distributionManagement>
+   <snapshotRepository>
+      <id>nexus</id>
+      <url>http://18.218.22.119:8081/nexus/content/repositories/snapshots</url>
+   </snapshotRepository>
+</distributionManagement>
+  
+   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -24,13 +31,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
-  <distributionManagement>
-   <snapshotRepository>
-      <id>nexus</id>
-      <url>http://172.31.45.151:8081/nexus/content/repositories/snapshots</url>
-   </snapshotRepository>
-</distributionManagement>
   
   <build>
     <plugins>
