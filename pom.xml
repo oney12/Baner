@@ -10,6 +10,12 @@
   <name>Simple Maven example</name>
   <url>https://jitpack.io/#jitpack/maven-simple/0.1</url>
 
+  <scm>
+    <connection>scm:svn:https://github.com/Shweta1319/Baner.git</connection>
+    <developerConnection>scm:svn:https://github.com/Shweta1319/Baner.gitConnection>
+    <url>https://github.com/Shweta1319/Baner.git</url>
+  </scm>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
