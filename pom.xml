@@ -12,7 +12,7 @@
 
   <scm>
     <connection>scm:svn:https://github.com/Shweta1319/Baner.git</connection>
-    <developerConnection>scm:svn:https://github.com/Shweta1319/Baner.gitConnection>
+    <developerConnection>scm:svn:https://github.com/Shweta1319/Baner.git></developerConnection>
     <url>https://github.com/Shweta1319/Baner.git</url>
   </scm>
   
